@@ -1,0 +1,30 @@
+2020-05-25 23:34:17.392  INFO 16396 --- [main] c.a.dubbo.common.logger.LoggerFactory    : using logger: com.alibaba.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+2020-05-25 23:34:17.482  INFO 16396 --- [main] c.m.x.gateway.GatewayApplication         : Starting GatewayApplication on TLSBJS-IN-L0021 with PID 16396 (C:\Users\ext.payzulla\workspace\project-learning\payulla\xuexiquan\xuexiquan-gateway\target\classes started by ext.payzulla in C:\Users\ext.payzulla\workspace\project-learning\payulla\xuexiquan)
+2020-05-25 23:34:17.484  INFO 16396 --- [main] c.m.x.gateway.GatewayApplication         : No active profile set, falling back to default profiles: default
+2020-05-25 23:34:18.083  INFO 16396 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2020-05-25 23:34:18.088  INFO 16396 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-25 23:34:18.088  INFO 16396 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-05-25 23:34:18.146  INFO 16396 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-25 23:34:18.146  INFO 16396 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 621 ms
+2020-05-25 23:34:18.248  INFO 16396 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-25 23:34:18.356  INFO 16396 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-05-25 23:34:18.360  INFO 16396 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-25 23:34:18.363 ERROR 16396 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 80 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 80 or configure this application to listen on another port.
+
+2020-05-25 23:34:18.365  INFO 16396 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-25 23:34:18.368  INFO 16396 --- [DubboShutdownHook] c.a.dubbo.config.DubboShutdownHook       :  [DUBBO] Run shutdown hook now., dubbo version: 2.6.5, current host: 192.168.199.129
+2020-05-25 23:34:18.369  INFO 16396 --- [DubboShutdownHook] c.a.d.r.support.AbstractRegistryFactory  :  [DUBBO] Close all registries [], dubbo version: 2.6.5, current host: 192.168.199.129
